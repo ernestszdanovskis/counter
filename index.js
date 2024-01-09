@@ -7,6 +7,12 @@ function increase() {
     color()
 }
 
+function simts() {
+    number = number + 100;
+    numberSelector.innerText = number;
+    color()
+}
+
 function reset() {
     number=0;
     numberSelector.innerText = number;
